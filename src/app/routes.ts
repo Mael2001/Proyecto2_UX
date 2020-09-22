@@ -8,7 +8,7 @@ export const AppRoutes: Routes = [
   {
     path: "registro",
     component: loginComponent,
-    canDeactivate: ["canDeactivateCreateClase"],
+    canDeactivate: ["canDeactivate"],
   },
   {
     path: "main",

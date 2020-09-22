@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial, cursive;
+}
+
+.navbar-custom {
+  background-color: #39536e;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text,
+.nav-link {
+  color: white;
+  padding-left: 3.3rem !important;
+}
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.navbar-nav.navbar-right {
+  position: absolute;
+  left: 75%;
+  transform: translatex(-50%);
+}
+.btn-primary {
+  background-color: #ea523b !important;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #2f3e48 !important;
+  color: #fff !important;
+  border-color: #31347b !important;
+}
+ul.nav a:hover {
+  color: #ea523b !important;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+}
