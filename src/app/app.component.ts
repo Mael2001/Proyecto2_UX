@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
+import { template } from "@angular/core/src/render3";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-root",
+  template: ` 
+    <Navbar></Navbar>
+    <router-outlet></router-outlet>`,
 })
 export class AppComponent {
-  title = 'Proyecto2UX';
+  title = "Proyecto2UX";
 }
